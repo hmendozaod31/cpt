@@ -37,7 +37,7 @@ const textContainer = document.createElement('div');
 textContainer.className = 'heart-text-container';
 textHeart.appendChild(textContainer);
 
-const fullText = "Para la que le da\ncolor a mi vida";
+const fullText = "Para la que le da\ncolor a mi días";
 const lines = fullText.split('\n');
 
 let letterDelay = 4500; // Empieza después de que el corazón se rellene
@@ -99,3 +99,4 @@ function closeMessage() {
 heartButton.addEventListener('click', showMessage);
 closeBtn.addEventListener('click', closeMessage);
 overlay.addEventListener('click', closeMessage);
+
