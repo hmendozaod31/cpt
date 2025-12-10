@@ -77,17 +77,18 @@ body {
 .container {
     text-align: center;
     position: absolute;
-    bottom: 100px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     z-index: 10;
     width: 100%;
+    margin-top: 320px;
 }
 
 h1 {
     color: #ff1744;
     font-size: 3.5em;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     text-shadow: 0 0 20px #ff1744, 0 0 40px #ff1744;
     font-family: 'Cookie', cursive;
     font-style: normal;
@@ -326,12 +327,12 @@ h1 {
     }
 
     .container {
-        bottom: 60px;
+        margin-top: 240px;
     }
 
     h1 {
         font-size: 2.5em;
-        margin-bottom: 20px;
+        margin-bottom: 18px;
     }
 
     .heart-button {
@@ -377,7 +378,7 @@ h1 {
     }
 
     .container {
-        bottom: 40px;
+        margin-top: 200px;
     }
 
     h1 {
